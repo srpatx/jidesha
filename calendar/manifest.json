@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Jitsi Meetings",
-  "description": "A simple extension that allows you to schedule Jitsi Meetings.",
+  "name": "SRPATX Jitsi Meetings",
+  "description": "A simple extension that allows you to schedule Jitsi Meetings in GCal.",
   "version": "0.2.8",
   "minimum_chrome_version": "34",
   "icons": {
@@ -14,7 +14,7 @@
   ],
   "externally_connectable": {
       "matches": [
-        "*://meet.jit.si/*"
+        "*://meet.srpatx.com/*"
       ]
   },
   "content_scripts": [
